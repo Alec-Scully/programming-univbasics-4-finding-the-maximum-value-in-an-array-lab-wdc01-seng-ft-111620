@@ -3,6 +3,9 @@ def find_max_value(array)
   index = 0 
   
   while index < array.length do
-    if array[index] 
+    if array[index] >= temp_max
+      temp_max = array[index]
+    end
+    index =+ 1 
   end 
 end
